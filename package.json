@@ -1,0 +1,15 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "test TDD",
+  "main": "cards_es6.js",
+  "scripts": {
+    "test": "/node_modules/.bin/mocha --compilers js:babel-core ./cards_es6.js"
+  },
+  "author": "ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "mocha": "^3.5.0"
+  }
+}
